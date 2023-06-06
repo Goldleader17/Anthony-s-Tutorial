@@ -1,0 +1,69 @@
+/*GENERAL*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*HEADER*/
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2%;
+}
+#header-img{
+    width: 70px;
+}
+#header-h2{
+    flex-basis: 70%;
+}
+#header-img-div{
+    flex-basis: 20%;
+    text-align: end;
+}
+/*End of Header*/
+
+
+.test{
+    background-color: blueviolet;
+}
+#text{
+    margin: 2% 0;
+    display: block;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 200px;
+    font-size: large;
+}
+.btn{
+    cursor: pointer;
+}
+.links{
+    text-decoration: none;
+    color: blueviolet;
+}
+.links:hover{
+    color: blue;
+}
+.links:active{
+    color: greenyellow;
+}
+
+
+/*GRID TUTORIAL*/
+.grid-container{
+    display: grid;
+    column-span: 3;
+}
+
+.grid-btn{
+    border: 1px solid grey;
+    width: 100px;
+    padding: 3px;
+    border-radius: 5px;
+}
